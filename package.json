@@ -9,6 +9,7 @@
   "scripts": {
     "start": "node src/index.js",
     "simulate": "node src/index.js --mode=simulate",
+    "daemon": "node src/live_daemon.js",
     "test": "node test/test_trading_engine.js"
   },
   "keywords": [
