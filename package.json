@@ -1,0 +1,28 @@
+{
+  "name": "solana-copytrade-agent",
+  "version": "1.0.0",
+  "description": "High-Performance Automated Solana & Binance Copytrading and Market-Making Agent with Paper Trading Simulator",
+  "main": "src/index.js",
+  "bin": {
+    "soltrade": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "simulate": "node src/index.js --mode=simulate",
+    "test": "node test/test_trading_engine.js"
+  },
+  "keywords": [
+    "solana",
+    "binance",
+    "trading-bot",
+    "copytrade",
+    "crypto",
+    "raydium",
+    "pumpfun",
+    "dex",
+    "algorithmic-trading",
+    "paper-trading"
+  ],
+  "author": "Shokun123",
+  "license": "MIT"
+}
